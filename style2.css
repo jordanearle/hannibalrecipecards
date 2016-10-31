@@ -1,0 +1,114 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image: url(img/patternbg.jpg);
+background-color: #340707;
+max-width: 100vw;
+overflow-x: hidden;
+min-width: 100vw;}
+
+.nav {
+  padding-left: 2em;
+  padding-top: 2em;
+  position: relative;
+}
+
+.monogram {
+  opacity: 0.2;
+}
+
+.monogram:hover {
+  opacity: 0.4;
+  transition: all 0.3s ease 0s;
+}
+
+.promo {
+  width: 780px;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 4em;
+  text-align: center;
+}
+
+#promo1{
+    width:180px;
+    height: 180px;
+    background:blue;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: url(img/brains.png);
+    background-size: 130%;}
+
+#promo1:hover{
+    width:180px;
+    height: 180px;
+    background:blue;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: url(img/brains.png);
+    background-size: 130%;
+    filter: grayscale(0.8);
+    transition: all 0.3s ease 0s;}
+
+#promo2{
+    width:180px;
+    height:180px;
+    background:red;
+    margin-left: 80px;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: url(img/ragu.png);
+    background-size: 130%;}
+
+#promo2:hover{
+    width:180px;
+    height:180px;
+    background:red;
+    margin-left: 80px;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: url(img/ragu.png);
+    background-size: 130%;
+    filter: grayscale(0.8);
+    transition: all 0.3s ease 0s;}
+
+#promo3{
+    width:180px;
+    height:180px;
+    background:green;
+    margin-left: 80px;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: url(img/roses.png);
+    background-size: 130%;}
+
+#promo3:hover{
+    width:180px;
+    height:180px;
+    background:green;
+    margin-left: 80px;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: url(img/roses.png);
+    background-size: 130%;
+    filter: grayscale(0.8);
+    transition: all 0.3s ease 0s;}
+
+.hero {
+  padding-top: 4em;
+  width: 651px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+h2 {
+  font-family: Gesta;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: -0.2em;
+}
